@@ -32,7 +32,7 @@ User stories and scenarios
         When I try to log in with correct username and incorrect password,
         Then I should see an error message.
 	    
-User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.  
+######User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.  
 
 1) Scenario: search items the store have.  
 
@@ -52,7 +52,7 @@ User Story 2: As a user, I want to search the web site, So that I can find produ
         When I try to do search directly without input anything,
         Then I should see numerous products.  
 	    	    
-####User Story 3:As a user, I want to add items to cart and remove items from cart,So that I can buy products I want</br>  
+######User Story 3: As a user, I want to add items to cart and remove items from cart,So that I can buy products I want</br>  
 
 1) Scenario: add one Apple TV to cart.    
 
