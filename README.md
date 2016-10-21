@@ -26,7 +26,8 @@ Xpath is not easy to write. So I use more By.id() and By.className() method. How
 	    Given a correct username and an incorrect password
         When I try to log in with correct username and incorrect password
         Then I should see an error message	    
-######User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.
+######User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.  
+
 1) Scenario: search items the store have.  
 
 	    Given I open the home page of the online store	    
