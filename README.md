@@ -13,41 +13,34 @@ Xpath is not easy to write. So I use more By.id() and By.className() method. How
 User stories and scenarios
 --------------------
 User Story 1: As a user, I want to login, So that I can know my account informations like purchase history
-
    ----Scenario : log in without inputing username and password.
 	     Given no username and password input,
              When I try to login without inputting username and password,
-             Then I should see an message to remind me to enter username and password.
-	     
+             Then I should see an message to remind me to enter username and password.	     
    ----Scenario : log in with correct username and password.
 	     Given a correct username and password,
              When I try to log in with those credentials,
-             Then I should login successfully with my username showed.
-	     
+             Then I should login successfully with my username showed.	     
    ----Scenario 3: log in with correct username and incorrect password.
 	     Given a correct username and an incorrect password,
             When I try to log in with correct username and incorrect password,
             Then I should see an error message.
 	    
 User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.
-
    ----Scenario 1: search items the store have
 		        Given I open the home page of the online store
             When I try to search iPad
-            Then I should see the product iPad  
-	    
+            Then I should see the product iPad      
    ----Scenario 2: search items the store does not have
 		        Given I already open the home page of the online store
             When I try to search iMac which the store doesn't sell
-            Then I should see an message noticing me no matched products 
-	    
+            Then I should see an message noticing me no matched products 	    
    ----Scenario 3: do search directly without input anything in search box
 	    Given I open online store's homepage
             When I try to do search directly without input anything
             Then I should see numerous products
 	    
 User Story 3:As a user, I want to add items to cart and remove items from cart,So that I can buy products I want
-
    ----Scenario (1): add one Apple TV to cart
 	    Given I am browsing Apple TV product page
             When I try to add one Apple TV to cart and go to checkout
