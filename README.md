@@ -9,7 +9,8 @@ Another problem I met is that when I use assertTrue() method, the compiler will 
 Xpath is not easy to write. So I use more By.id() and By.className() method. However sometimes using By.id() method didn’t work. Then I need to using xpath. There is a small tip using Chrome browser’s inspect to select the element you want and can do copy xpath.
 
 ##User stories and scenarios
-######User Story 1: As a user, I want to login, So that I can know my account informations like purchase history</br>  
+######User Story 1: As a user, I want to login, So that I can know my account informations like purchase history  
+
 1) Scenario: log in without inputing username and password.  
 
 	     Given no username and password input
