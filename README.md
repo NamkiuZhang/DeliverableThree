@@ -15,17 +15,19 @@ User stories and scenarios
 --User Story 1: As a user, I want to login, So that I can know my account informations like purchase history
 
    Scenario: log in without inputing username and password
-		         Given no username and password input
+	     Given no username and password input
              When I try to login without inputting username and password
              Then I should see an message to remind me to enter username and password
+	     
    Scenario: log in with correct username and password
-		        Given a correct username and password
-            When I try to log in with those credentials
-            Then I should login successfully with my username showed
+	     Given a correct username and password
+             When I try to log in with those credentials
+             Then I should login successfully with my username showed
    Scenario: log in with correct username and incorrect password
-		        Given a correct username and an incorrect password
+	     Given a correct username and an incorrect password
             When I try to log in with correct username and incorrect password
             Then I should see an error message
+	    
 --User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have
    Scenario: search items the store have
 		        Given I open the home page of the online store
@@ -36,20 +38,21 @@ User stories and scenarios
             When I try to search iMac which the store doesn't sell
             Then I should see an message noticing me no matched products 
    Scenario: do search directly without input anything in search box
-		        Given I open online store's homepage
+	    Given I open online store's homepage
             When I try to do search directly without input anything
             Then I should see numerous products
+	    
 --User Story 3
 As a user, I want to add items to cart and remove items from cart,So that I can buy products I want
    Scenario: add one Apple TV to cart
-		        Given I am browsing Apple TV product page
+	    Given I am browsing Apple TV product page
             When I try to add one Apple TV to cart and go to checkout
             Then I should have one Apple TV in my cart
    Scenario: add one Apple TV to cart, then change the quantity
-		        Given There is already one Apple TV in cart
+	    Given There is already one Apple TV in cart
             When I changed the quantity of Apple TV to 5
             Then I should have 5 Apple TV in cart
    Scenario: add one Apple TV to cart, then remove it
-		        Given There is already and only one Apple TV in cart
+	    Given There is already and only one Apple TV in cart
             When I remove the item from the cart
             Then I can not see the item removed in cart
