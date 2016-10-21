@@ -17,8 +17,8 @@ User Story 1: As a user, I want to login, So that I can know my account informat
 1) Scenario: log in without inputing username and password.  
 
 	     Given no username and password input,
-             When I try to login without inputting username and password,
-             Then I should see an message to remind me to enter username and password.	  
+         When I try to login without inputting username and password,
+         Then I should see an message to remind me to enter username and password.	  
 	     
 2) Scenario: log in with correct username and password.  
 
