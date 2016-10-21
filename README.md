@@ -10,7 +10,6 @@ Xpath is not easy to write. So I use more By.id() and By.className() method. How
 
 ##User stories and scenarios
 ######User Story 1: As a user, I want to login, So that I can know my account informations like purchase history</br>  
-
 1) Scenario: log in without inputing username and password.  
 
 	     Given no username and password input
@@ -20,14 +19,12 @@ Xpath is not easy to write. So I use more By.id() and By.className() method. How
 
 	     Given a correct username and password
          When I try to log in with those credentials
-         Then I should login successfully with my username showed	     
-	     
+         Then I should login successfully with my username showed	     	     
 3) Scenario: log in with correct username and incorrect password.  
 
 	    Given a correct username and an incorrect password
         When I try to log in with correct username and incorrect password
-        Then I should see an error message
-	    
+        Then I should see an error message	    
 ######User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.  
 
 1) Scenario: search items the store have.  
@@ -39,28 +36,24 @@ Xpath is not easy to write. So I use more By.id() and By.className() method. How
 
         Given I already open the home page of the online store
         When I try to search iMac which the store doesn't sell 
-        Then I should see an message noticing me no matched products   
-	    
+        Then I should see an message noticing me no matched products   	    
 3) Scenario : do search directly without input anything in search box.  
 
 	    Given I open online store's homepage
         When I try to do search directly without input anything
-        Then I should see numerous products  
-	    	    
+        Then I should see numerous products  	    	    
 ######User Story 3: As a user, I want to add items to cart and remove items from cart,So that I can buy products I want</br>  
 
 1) Scenario: add one Apple TV to cart.    
 
 	    Given I am browsing Apple TV product page
         When I try to add one Apple TV to cart and go to checkout
-        Then I should have one Apple TV in my cart	    
-	    
+        Then I should have one Apple TV in my cart	    	    
 2) Scenario: add one Apple TV to cart, then change the quantity.  
 
 	    Given There is already one Apple TV in cart
         When I changed the quantity of Apple TV to 5
-        Then I should have 5 Apple TV in cart  
-	    
+        Then I should have 5 Apple TV in cart  	    
 3) Scenario: add one Apple TV to cart, then remove it.  
 
 	    Given There is already and only one Apple TV in cart
