@@ -13,12 +13,11 @@ Xpath is not easy to write. So I use more By.id() and By.className() method. How
 User stories and scenarios
 --------------------
 User Story 1: As a user, I want to login, So that I can know my account informations like purchase history
-
-   ----Scenario : log in without inputing username and password.
+   ----Scenario 1: log in without inputing username and password.
 	     Given no username and password input,
              When I try to login without inputting username and password,
              Then I should see an message to remind me to enter username and password.	     
-   ----Scenario : log in with correct username and password.
+   ----Scenario 2: log in with correct username and password.
 	     Given a correct username and password,
              When I try to log in with those credentials,
              Then I should login successfully with my username showed.	     
@@ -28,7 +27,6 @@ User Story 1: As a user, I want to login, So that I can know my account informat
             Then I should see an error message.
 	    
 User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.
-
    ----Scenario 1: search items the store have
 		        Given I open the home page of the online store
             When I try to search iPad
