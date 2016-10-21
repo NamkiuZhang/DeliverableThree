@@ -43,8 +43,8 @@ User Story 2: As a user, I want to search the web site, So that I can find produ
 2) Scenario: search items the store does not have.  
 
             Given I already open the home page of the online store, 
-        When I try to search iMac which the store doesn't sell, 
-        Then I should see an message noticing me no matched products.   
+            When I try to search iMac which the store doesn't sell, 
+            Then I should see an message noticing me no matched products.   
 	    
 3) Scenario : do search directly without input anything in search box.  
 
