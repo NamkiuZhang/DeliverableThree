@@ -12,7 +12,7 @@ Xpath is not easy to write. So I use more By.id() and By.className() method. How
 
 User stories and scenarios
 --------------------
-User Story 1: As a user, I want to login, So that I can know my account informations like purchase history</br>  
+######User Story 1: As a user, I want to login, So that I can know my account informations like purchase history</br>  
 
 1) Scenario: log in without inputing username and password.  
 
