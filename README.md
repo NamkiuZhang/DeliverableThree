@@ -56,8 +56,7 @@ User Story 3:As a user, I want to add items to cart and remove items from cart,S
    ----Scenario (2): add one Apple TV to cart, then change the quantity
 	    Given There is already one Apple TV in cart
             When I changed the quantity of Apple TV to 5
-            Then I should have 5 Apple TV in cart
-	    
+            Then I should have 5 Apple TV in cart	    
   ----Scenario (3): add one Apple TV to cart, then remove it
 	    Given There is already and only one Apple TV in cart
             When I remove the item from the cart
