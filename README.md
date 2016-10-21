@@ -26,10 +26,10 @@ User Story 1: As a user, I want to login, So that I can know my account informat
             When I try to log in with correct username and incorrect password,
             Then I should see an error message.
 	    
-User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.</br>
+User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.  
+
 1)Scenario: search items the store have.
-	    Given I open the home page of the online store,   
-	    
+	    Given I open the home page of the online store,	    
             When I try to search iPad,
             Then I should see the product iPad.  
 2)Scenario: search items the store does not have.
