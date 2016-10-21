@@ -15,8 +15,7 @@ Xpath is not easy to write. So I use more By.id() and By.className() method. How
 
 	     Given no username and password input
          When I try to login without inputting username and password
-         Then I should see an message to remind me to enter username and password	  
-	     
+         Then I should see an message to remind me to enter username and password	  	     
 2) Scenario: log in with correct username and password.  
 
 	     Given a correct username and password
@@ -35,8 +34,7 @@ Xpath is not easy to write. So I use more By.id() and By.className() method. How
 
 	    Given I open the home page of the online store	    
         When I try to search iPad
-        Then I should see the product iPad    
-	    
+        Then I should see the product iPad    	    
 2) Scenario: search items the store does not have.  
 
         Given I already open the home page of the online store
