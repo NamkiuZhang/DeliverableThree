@@ -28,11 +28,12 @@ User Story 1: As a user, I want to login, So that I can know my account informat
 	    
 User Story 2: As a user, I want to search the web site, So that I can find products I want that the online have.</br>
 1)Scenario: search items the store have.
-		        Given I open the home page of the online store, 
+	    Given I open the home page of the online store,   
+	    
             When I try to search iPad,
             Then I should see the product iPad.  
 2)Scenario: search items the store does not have.
-		        Given I already open the home page of the online store, 
+            Given I already open the home page of the online store, 
             When I try to search iMac which the store doesn't sell, 
             Then I should see an message noticing me no matched products. 	    
 3)Scenario : do search directly without input anything in search box.
