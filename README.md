@@ -30,7 +30,7 @@ User Story 2: As a user, I want to search the web site, So that I can find produ
    ----Scenario 1: search items the store have
 		        Given I open the home page of the online store
             When I try to search iPad
-            Then I should see the product iPad      
+            Then I should see the product iPad     
    ----Scenario 2: search items the store does not have
 		        Given I already open the home page of the online store
             When I try to search iMac which the store doesn't sell
